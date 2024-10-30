@@ -9,7 +9,7 @@
  * const message = generateMessage("Jack", 25); // "Hey Jack, happy 25 birthday!"
  */
 function generateMessage(name, age) {
-
+return "Hey "+name+","+" happy "+age+" birthday!";
 }
 
 /**
@@ -20,9 +20,14 @@ function generateMessage(name, age) {
  *
  * Usage:
  * const title = titleCase("hello world"); // title will be "Hello World"
+ * hjælp fra denne side: https://www.freecodecamp.org/news/how-to-capitalize-words-in-javascript/
  */
 function titleCase(sentence) {
-
+    let words = sentence.split(" ");
+    for (let i = 0; i < words.length; i++) {
+        words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+    }
+    return words.join(" ")
 }
 
 /**
@@ -66,5 +71,4 @@ function generateAcronym(sentence) {
  * const anotherCount = countConsonantsWeighted("JavaScript"); // anotherCount will be 9
  */
 function countConsonantsWeighted(str) {
-
 }

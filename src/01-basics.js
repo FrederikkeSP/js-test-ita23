@@ -8,7 +8,8 @@
  * console.log(coolestTeacher); // Benjamin
  */
 function getCoolestTeacher() {
-    
+    const coolestTeacher = ("Benjamin")
+    return coolestTeacher;
 }
 
 /**
@@ -24,7 +25,7 @@ function getCoolestTeacher() {
  * const anotherResult = multiplyAndAdd(-1, 1, 2); // anotherResult will be 1
  */
 function multiplyAndAdd(a, b, c) {
-
+return (a*b)+c;
 }
 
 /**
@@ -38,7 +39,6 @@ function multiplyAndAdd(a, b, c) {
  * const anotherResult = determineType(42); // anotherResult will be "number"
  */
 function determineType(value) {
-
 }
 
 /**
@@ -53,9 +53,8 @@ function determineType(value) {
  */
 
 function concatenateStringsWithSpace(a, b) {
-
+    return a+" "+b;
 }
-
 
 /**
  * This function converts a string to uppercase and adds a smiley at the end of the string
@@ -71,7 +70,7 @@ function concatenateStringsWithSpace(a, b) {
  */
 
 function toUpperCaseWithSmiley(str) {
-
+return str.toUpperCase()+":)";
 }
 
 /**
@@ -86,6 +85,4 @@ function toUpperCaseWithSmiley(str) {
  * const anotherRepeated = repeatString("Goodbye", 2); // anotherRepeated will be "Goodbye Goodbye"
  */
 function repeatString(str, times) {
-
 }
-

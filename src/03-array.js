@@ -30,8 +30,11 @@ function returnNumbers(start, finish) {
  */
 
 function sumArray(array) {
-
+    let numbers = array
+    let sumOfNumbers = numbers.map(number => number*2).reduce((accumulator, current) => accumulator + current);
+    console.log(sumOfNumbers)
 }
+
 
 /**
  * This function adds a new element to the end of an array.
